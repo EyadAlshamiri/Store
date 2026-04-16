@@ -33,6 +33,10 @@ ul {
     list-style: none;
 }
 
+section{
+    margin-bottom: 100px;
+}
+
 
 .top-header {
     background-color: var(--black-color);
@@ -258,4 +262,66 @@ ul {
 
 .home-image .cerical span.active {
     background-color: var(--primary-color);
+}
+
+.section-title {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.section-title .title-shape{
+    width: 20px;
+    height: 45px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.section-title h3 {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.section-heade {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section-heade .section-heade-title {
+    display: flex;
+    gap: 200px;
+}
+
+.title{
+    font-size: 40px; 
+}
+
+
+.section-heade .section-heade-title  .timer {
+    display: flex;
+    gap: 15px;
+}
+.section-heade .section-heade-title  .timer .time-title .timer-title{
+    font-size: 12px;
+}
+
+.section-heade .section-heade-title  .timer .time-title .timer-time {
+    font-size: 40px;
+    font-weight: bold ;
+}
+
+.points{
+    color: var(--primary-color) ; 
+    font-size: 50px;
+}
+
+
+.circal-btun {
+    border: none;
+    font-size: 25px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
